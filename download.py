@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import requests, datetime
+import requests
 
 f = open(r'path_to_file', 'wb')
 r = requests.get('link')
